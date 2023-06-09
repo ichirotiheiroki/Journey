@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:journey/pages/navpages/main_page.dart';
 import 'package:journey/pages/welcome_page.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.blue
       ),
-      home: const WelcomePage(),
+      // home: const WelcomePage(),
+      home: const MainPage(),
     );
   }
 }
